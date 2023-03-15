@@ -5,10 +5,55 @@
   background-image: url("/images/bg-big.png");
   .header {
     width: 100%;
-    height: 100%;
+    height: 98%;
     background-image: url("/images/chiziq.png");
+    .block-ul{
+      display: none;
+      width: 100%;
+      height: 130px;
+      background-color: #151a1e;
+      filter: blur(1);
+      position: fixed;
+      .close-btnUl{
+        position: fixed;
+        color: black;
+        margin-left: 90%;
+        width: 30px;
+        height: 30px;
+        border-radius: 20px;
+        font-size: 20px;
+        border: none;
+      }
+      li{
+        width: 100%;
+        text-align: center;
+        a{
+          width: 100%;
+          color: #ffffff;
+          text-align: center;
+          font-size: 28px;
+        }
+        a:hover{
+          background-color: #6911ad;
+        }
+      }
+    }
+    .block-nav{
+      display: none;
+      width: 100%;
+      height: 300px;
+      li{
+        width: 100%;
+        height: 50px;
+        background-color: black;
+        filter: blur(1);
+        a{
+          color: white;
+        }
+      }
+    }
     &__nav {
-      min-width: 1600px;
+      width: 100%;
       height: 80px;
       border: 1px solid white;
       display: flex;
@@ -111,7 +156,7 @@
       .header__left {
         margin-top: 6%;
         width: 70%;
-        height: 90%;
+        height: 92%;
         background-image: url("/images/bg-left.png");
         padding-left: 120px;
         h2 {

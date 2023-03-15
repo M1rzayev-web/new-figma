@@ -1,7 +1,7 @@
 .main {
   width: 100%;
-//   height: 5906px;
-//   background-image: url("/images/big-bg-big.png");
+  //   height: 5906px;
+  //   background-image: url("/images/big-bg-big.png");
   background-color: #1e1e1e;
   .jaloliddin-2 {
     width: 100%;
@@ -36,7 +36,6 @@
             margin-top: -20px;
 
             p {
-
               color: #ffffff;
               font-size: 18px;
             }
@@ -53,12 +52,22 @@
                 height: 100%;
                 text-align: center;
                 h4 {
+                  font-family: "Futura PT";
                   font-style: normal;
                   font-weight: 600;
                   font-size: 50px;
                   line-height: 100%;
-                  color: #0028f8;
-                  margin: 20px 0;
+                  /* identical to box height, or 50px */
+
+                  background: linear-gradient(
+                    96.96deg,
+                    rgba(0, 40, 248, 0.89) -0.76%,
+                    #6911ad 100%
+                  );
+                  -webkit-background-clip: text;
+                  -webkit-text-fill-color: transparent;
+                  background-clip: text;
+                  text-fill-color: transparent;
                 }
                 p {
                   font-family: "Futura PT";
@@ -75,12 +84,22 @@
                 height: 100%;
                 text-align: center;
                 h4 {
+                  font-family: "Futura PT";
                   font-style: normal;
                   font-weight: 600;
                   font-size: 50px;
                   line-height: 100%;
-                  color: #0028f8;
-                  margin: 20px 0;
+                  /* identical to box height, or 50px */
+
+                  background: linear-gradient(
+                    96.96deg,
+                    rgba(0, 40, 248, 0.89) -0.76%,
+                    #6911ad 100%
+                  );
+                  -webkit-background-clip: text;
+                  -webkit-text-fill-color: transparent;
+                  background-clip: text;
+                  text-fill-color: transparent;
                 }
                 p {
                   font-family: "Futura PT";
@@ -102,12 +121,22 @@
                 height: 100%;
                 text-align: center;
                 h4 {
+                  font-family: "Futura PT";
                   font-style: normal;
                   font-weight: 600;
                   font-size: 50px;
                   line-height: 100%;
-                  color: #0028f8;
-                  margin: 20px 0;
+                  /* identical to box height, or 50px */
+
+                  background: linear-gradient(
+                    96.96deg,
+                    rgba(0, 40, 248, 0.89) -0.76%,
+                    #6911ad 100%
+                  );
+                  -webkit-background-clip: text;
+                  -webkit-text-fill-color: transparent;
+                  background-clip: text;
+                  text-fill-color: transparent;
                 }
                 p {
                   font-family: "Futura PT";
@@ -124,12 +153,22 @@
                 width: 50%;
                 height: 100%;
                 h4 {
+                  font-family: "Futura PT";
                   font-style: normal;
                   font-weight: 600;
                   font-size: 50px;
                   line-height: 100%;
-                  color: #0028f8;
-                  margin: 20px 0;
+                  /* identical to box height, or 50px */
+
+                  background: linear-gradient(
+                    96.96deg,
+                    rgba(0, 40, 248, 0.89) -0.76%,
+                    #6911ad 100%
+                  );
+                  -webkit-background-clip: text;
+                  -webkit-text-fill-color: transparent;
+                  background-clip: text;
+                  text-fill-color: transparent;
                 }
                 p {
                   font-family: "Futura PT";
