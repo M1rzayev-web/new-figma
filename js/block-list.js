@@ -9,10 +9,10 @@ function blocklistUl() {
     blockUl.style.display = "block";
 }
 function closeUl() {
-    blockUl.style.display="none"
+    blockUl.style.display = "none";
 }
 function blockNavbtn() {
-    blockNav.display.style.display="block"
+    blockNav.style.display = "block";
 }
 blocklist.addEventListener("click", function () {
     noneNav();

@@ -1,12 +1,19 @@
 const sun = document.getElementById("sun");
 const moon = document.getElementById("moon");
-// const text = document.getElementById("text");
-const continer=document.querySelector(".continer")
+const continer = document.querySelector(".continer");
 
 sun.addEventListener("click", function () {
-  continer.classList.add("dark");
+ continerWhite();
 });
-
 moon.addEventListener("click", function () {
-  continer.classList.remove("dark");
+  continerDark();
 });
+function continerWhite() {
+  continer.style.background = "white";
+  continer.style.color = "black";
+}
+function continerDark() {
+  continer.style.background = "black";
+  continer.style.color = "white";
+}
+
