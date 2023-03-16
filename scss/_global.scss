@@ -3,17 +3,13 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
+    border: 1px solid red;
 }
-.container{
-    background: #1E1E1E;
-    max-width: 1600px;
-    border: 1px solid;
-}
-
-
-
 @media only screen and (max-width: 400px){
     .container{
         width: 100%;
     }
 } 
+.continer{
+    max-width: 1600px;
+}
