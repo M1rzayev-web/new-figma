@@ -86,6 +86,7 @@
   box-shadow: 20px 20px 40px rgba(241, 216, 253, 0.08);
   backdrop-filter: blur(2px);
   border-radius: 10px;
+  margin-bottom: 100px;
 }
 .formsec__main {
   width: 50%;
@@ -361,7 +362,7 @@
   border-top: 1px solid #4E4E4E;
   backdrop-filter: blur(1px);
   border-radius: 20px 20px 0px 0px;
-  margin-top: 100px;
+  margin-top: 0px;
 }
 .footer__location {
   display: flex;
