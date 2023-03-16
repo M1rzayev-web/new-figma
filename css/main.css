@@ -3,7 +3,6 @@
   padding: 0;
   list-style: none;
   text-decoration: none;
-  border: 1px solid red;
 }
 
 @media only screen and (max-width: 400px) {
@@ -312,7 +311,6 @@
 .main .jaloliddin-2 .secDiv2 .komp-haqida .komp-ul {
   max-width: 100%;
   padding: 0 165px;
-  border: 1px solid red;
   display: flex;
 }
 .main .jaloliddin-2 .secDiv2 .komp-haqida .komp-ul .li1 {
