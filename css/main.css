@@ -574,6 +574,7 @@
 .team {
   max-width: 100%;
   height: 456px;
+  margin-top: 60px;
 }
 .team__title {
   width: 231px;
