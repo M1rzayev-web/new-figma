@@ -70,7 +70,7 @@
     margin-left: -280px;
   }
 }
-@media (max-width: 1300px) {
+@media (-width: 1300px) {
   .jaloliddin-1 {
     width: 100%;
   }
@@ -112,7 +112,11 @@
     width: 100%;
   }
   .main .jaloliddin-2 .secDiv2 .komp-haqida .komp-ul .li1 {
+    width: 60%;
     margin-top: 1px;
+  }
+  .main .jaloliddin-2 .secDiv2 .komp-haqida .komp-ul .li2 {
+    width: 40%;
   }
 }
 @media (max-width: 1200px) {
@@ -153,14 +157,8 @@
   .main .jaloliddin-2 .secDiv2 .komp-haqida h3 {
     padding-top: 50px;
   }
-  .main .jaloliddin-2 .secDiv2 .komp-haqida .komp-ul {
-    width: 100%;
-  }
-  .main .jaloliddin-2 .secDiv2 .komp-haqida .komp-ul .li1 {
-    margin-top: 15px;
-  }
 }
-@media (max-width: 1120px) {
+@media (max-width: 1126px) {
   .jaloliddin-1 {
     width: 100%;
   }
@@ -179,7 +177,7 @@
   .jaloliddin-1 .header .header__nav .nav__phone {
     margin-left: 0;
   }
-  .jaloliddin-1 .header .header__nav .btn-tel {
+  .jaloliddin-1 .header .header__nav .btn-tel-div {
     display: none;
   }
   .jaloliddin-1 .header .header__main {

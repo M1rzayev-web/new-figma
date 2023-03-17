@@ -14,12 +14,14 @@ function closeUl() {
 function blockNavbtn() {
     blockNav.style.display = "block";
 }
-blocklist.addEventListener("click", function () {
+blocklist.addEventListener("click", function (e) {
+    e.preventDefault();
     noneNav();
     blocklistUl();
    
 })
-closeUlbtn.addEventListener("click", function () {
+closeUlbtn.addEventListener("click", function (e) {
+    e.preventDefault();
     closeUl();
     blockNavbtn();
 })

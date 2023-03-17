@@ -5,11 +5,7 @@
     text-decoration: none;
     // border: 1px solid red;
 }
-@media only screen and (max-width: 400px){
-    .container{
-        width: 100%;
-    }
-} 
 .continer{
     max-width: 1600px;
+              overflow-y: hidden;
 }

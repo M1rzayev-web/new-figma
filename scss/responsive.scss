@@ -73,7 +73,7 @@
     }
   }
 }
-@media (max-width: 1300px) {
+@media (-width: 1300px) {
   .jaloliddin-1 {
     width: 100%;
     .header {
@@ -112,7 +112,11 @@
           .komp-ul {
             width: 100%;
             .li1 {
+              width: 60%;
               margin-top: 1px;
+            }
+            .li2{
+              width: 40%;
             }
           }
         }
@@ -156,18 +160,15 @@
           h3 {
             padding-top: 50px;
           }
-          .komp-ul {
-            width: 100%;
-            .li1 {
-              margin-top: 15px;
-            }
-          }
         }
       }
     }
+    .formsec{
+    //  flex-direction: column;
+    }
   }
 }
-@media (max-width: 1120px) {
+@media (max-width: 1126px) {
   .jaloliddin-1 {
     width: 100%;
     .header {
@@ -183,7 +184,7 @@
         .nav__phone {
           margin-left: 0;
         }
-        .btn-tel {
+        .btn-tel-div {
           display: none;
         }
       }
