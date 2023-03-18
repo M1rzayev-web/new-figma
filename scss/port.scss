@@ -1,0 +1,16 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    // border: 1px solid red;
+}
+
+@import "./global";
+@import "./_portfoliya/block";
+
+.continerPort{
+    max-width: 1600px;
+    overflow-y: hidden;
+    background-color: black;
+}

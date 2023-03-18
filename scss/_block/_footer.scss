@@ -48,6 +48,23 @@
     }
 }
 
+@media only screen and (max-width: 1000px) {
+    .footer{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    .footer{
+        display: block;
+        &__img{
+            margin-left: 80px;
+        }
+        &__location{
+            margin-top: 10px;
+        }
+    }
+}
 
 
 @media only screen and (max-width: 400px){
