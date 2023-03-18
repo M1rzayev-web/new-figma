@@ -6,7 +6,6 @@
   .jaloliddin-2 {
     width: 100%;
     height: 500px;
-    // background-image: url("/images/chiziq2.png");
     .secDiv2 {
       width: 100%;
       height: 100%;
@@ -187,7 +186,8 @@
   }
   .projects {
     width: 100%;
-    height: 1043px;
+    margin-top: 100px;
+    // height: 1043px;
     &__inner {
       width: 1360px;
       height: 1043px;
@@ -214,6 +214,15 @@
         .projects__nav__item1 {
           width: 160px;
           height: 51px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-left: 0;
+          margin-right: 0;
+        }
+        .projects__nav__item1:active{
+          width: 150px;
+          height: 51PX;
           background: linear-gradient(
             93.5deg,
             #1e11ad 12.37%,
@@ -223,12 +232,28 @@
           display: flex;
           align-items: center;
           justify-content: center;
-          margin-left: 0;
-          margin-right: 0;
+          // margin-left: 0;
+          // margin-right: 0;
+        }
+        .projects__nav__item:active{
+          width: 150px;
+          height: 51PX;
+          background: linear-gradient(
+            93.5deg,
+            #1e11ad 12.37%,
+            rgba(105, 17, 173, 0.95) 85.28%
+          );
+          border-radius: 30px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          // margin-left: 0;
+          // margin-right: 0;
         }
         .projects__nav__item {
           font-size: 22px;
           color: white;
+          cursor: pointer;
         }
       }
       .projects__list {
@@ -243,9 +268,9 @@
           margin-bottom: 40px;
           &:hover .projects__link {
             background: rgba(0, 0, 0, 0.87);
-            padding: 30px;
-            width: 100%;
-            height: 100%;
+            // padding: 30px;
+            width: 90%;
+            height: 90%;
             z-index: 3;
 
             &::after {
@@ -326,7 +351,7 @@
 .team {
   max-width: 100%;
   height: 456px;
-  margin-top: 60px;
+  margin-top: 100px;
   &__title {
     width: 231px;
     height: 44px;
@@ -342,13 +367,36 @@
   }
   &__boxes {
     width: 100%;
-    border: 1px solid red;
+    // border: 1px solid red;
     display: flex;
     align-items: center;
     justify-content: space-between;
     overflow-y: hidden;
     width: 100%;
     height: 410px;
+    margin-top: 50px;
+    .btn-left-team-boxes{
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: #1e1e1e;
+      border: none;
+      i{
+        font-size: 22px;
+        color: white;
+      }
+    }
+    .btn-right-team-boxes{
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: #1e1e1e;
+      border: none;
+      i{
+        font-size: 22px;
+        color: white;
+      }
+    }
     &__box {
       width: 317px;
       height: 390px;
@@ -385,6 +433,7 @@
   width: 1360px;
   height: 873px;
   display: flex;
+  margin-top: 250px;
   align-items: center;
   background: rgba(14, 16, 20, 0.9);
   box-shadow: 20px 20px 40px rgba(241, 216, 253, 0.08);

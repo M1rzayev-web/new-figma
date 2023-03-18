@@ -81,7 +81,8 @@
     &__nav {
       width: 1600px;
       height: 80px;
-      border: 1px solid white;
+      z-index: 100;
+      // border: 1px solid white;
       display: flex;
       align-items: center;
       padding: 0 120px;
