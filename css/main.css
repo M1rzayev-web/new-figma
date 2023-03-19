@@ -1614,7 +1614,79 @@
     height: 103%;
   }
   .jaloliddin-1 .header .header__nav {
+    display: none;
+  }
+  .jaloliddin-1 .header .block-nav {
+    display: block;
+    z-index: 0;
     width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    position: fixed;
+    background-color: rgba(21, 26, 30, 0.5215686275);
+    filter: blur(1);
+  }
+  .jaloliddin-1 .header .block-nav .btn-list {
+    margin-left: 0;
+    width: 10%;
+    background-color: transparent;
+    border: none;
+    height: 35px;
+  }
+  .jaloliddin-1 .header .block-nav .btn-list i {
+    color: white;
+    font-size: 28px;
+  }
+  .jaloliddin-1 .header .block-nav a {
+    color: white;
+    width: 70%;
+    text-align: center;
+    font-size: 35px;
+  }
+  .jaloliddin-1 .header .block-nav .nav__toogle {
+    width: 30%;
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 12px;
+  }
+  .jaloliddin-1 .header .block-nav .nav__toogle i {
+    color: white;
+    font-size: 22px;
+  }
+  .jaloliddin-1 .header .block-ul {
+    display: none;
+    width: 100%;
+    height: 110px;
+    background-color: rgba(21, 26, 30, 0.5176470588);
+    position: fixed;
+  }
+  .jaloliddin-1 .header .block-ul .close-btnUl {
+    position: fixed;
+    margin-left: 91%;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 22px;
+  }
+  .jaloliddin-1 .header .block-ul li {
+    width: 100%;
+    text-align: center;
+  }
+  .jaloliddin-1 .header .block-ul li a {
+    color: white;
+    font-size: 22px;
+    text-align: center;
+  }
+  .jaloliddin-1 .header .block-ul li a:hover {
+    background-color: #6911ad;
   }
   .jaloliddin-1 .header .header__main {
     width: 100%;
@@ -1724,7 +1796,7 @@
     font-size: 35px;
   }
   .jaloliddin-1 .header .block-nav .nav__toogle {
-    width: 10%;
+    width: 35%;
     margin-right: 0;
     display: flex;
     align-items: center;
@@ -1858,7 +1930,49 @@
     height: 104%;
   }
   .jaloliddin-1 .header .header__nav {
+    display: none;
+  }
+  .jaloliddin-1 .header .block-nav {
+    display: block;
+    z-index: 0;
     width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    position: fixed;
+    background-color: rgba(21, 26, 30, 0.5215686275);
+    filter: blur(1);
+  }
+  .jaloliddin-1 .header .block-nav .btn-list {
+    margin-left: 0;
+    width: 10%;
+    background-color: transparent;
+    border: none;
+    height: 35px;
+  }
+  .jaloliddin-1 .header .block-nav .btn-list i {
+    color: white;
+    font-size: 28px;
+  }
+  .jaloliddin-1 .header .block-nav a {
+    color: white;
+    width: 70%;
+    text-align: center;
+    font-size: 35px;
+  }
+  .jaloliddin-1 .header .block-nav .nav__toogle {
+    width: 40%;
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 12px;
+  }
+  .jaloliddin-1 .header .block-nav .nav__toogle i {
+    color: white;
+    font-size: 22px;
   }
   .jaloliddin-1 .header .header__main {
     width: 100%;
@@ -1881,6 +1995,50 @@
   .jaloliddin-1 .header {
     width: 100%;
     height: 105%;
+  }
+  .jaloliddin-1 .header .header__nav {
+    display: none;
+  }
+  .jaloliddin-1 .header .block-nav {
+    display: block;
+    z-index: 0;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    position: fixed;
+    background-color: rgba(21, 26, 30, 0.5215686275);
+    filter: blur(1);
+  }
+  .jaloliddin-1 .header .block-nav .btn-list {
+    margin-left: 0;
+    width: 10%;
+    background-color: transparent;
+    border: none;
+    height: 35px;
+  }
+  .jaloliddin-1 .header .block-nav .btn-list i {
+    color: white;
+    font-size: 28px;
+  }
+  .jaloliddin-1 .header .block-nav a {
+    color: white;
+    width: 70%;
+    text-align: center;
+    font-size: 35px;
+  }
+  .jaloliddin-1 .header .block-nav .nav__toogle {
+    width: 45%;
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 12px;
+  }
+  .jaloliddin-1 .header .block-nav .nav__toogle label {
+    display: none;
   }
   .jaloliddin-1 .header .header__main {
     width: 100%;
