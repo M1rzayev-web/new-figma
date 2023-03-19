@@ -52,16 +52,21 @@
   font-size: 35px;
 }
 .jaloliddin-1 .header .block-nav .nav__toogle {
-  width: 10%;
-  margin-right: 0;
+  width: 270px;
+  height: 40px;
+  background: #151a1e;
+  border: 1px solid #aaaaaa;
+  border-radius: 40px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  border-radius: 12px;
+  justify-content: space-between;
 }
-.jaloliddin-1 .header .block-nav .nav__toogle i {
+.jaloliddin-1 .header .block-nav .nav__toogle label {
   color: white;
-  font-size: 22px;
+}
+.jaloliddin-1 .header .block-nav .nav__toogle input {
+  width: 20px;
+  height: 20px;
 }
 .jaloliddin-1 .header .block-ul {
   display: none;
@@ -918,16 +923,21 @@
   font-size: 35px;
 }
 .block-nav .nav__toogle {
-  width: 10%;
-  margin-right: 0;
+  width: 270px;
+  height: 40px;
+  background: #151a1e;
+  border: 1px solid #aaaaaa;
+  border-radius: 40px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  border-radius: 12px;
+  justify-content: space-between;
 }
-.block-nav .nav__toogle i {
+.block-nav .nav__toogle label {
   color: white;
-  font-size: 22px;
+}
+.block-nav .nav__toogle input {
+  width: 20px;
+  height: 20px;
 }
 
 .block-ul {
@@ -1000,7 +1010,7 @@
   color: #ffffff;
 }
 .header__nav .nav__toogle {
-  width: 93px;
+  width: 270px;
   height: 40px;
   background: #151a1e;
   border: 1px solid #aaaaaa;
@@ -1008,16 +1018,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-right: 0;
 }
-.header__nav .nav__toogle i {
-  width: 50%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: rgb(255, 255, 255);
-  font-size: 22px;
+.header__nav .nav__toogle label {
+  color: white;
+}
+.header__nav .nav__toogle input {
+  width: 20px;
+  height: 20px;
 }
 .header__nav .nav__phone {
   width: 170px;

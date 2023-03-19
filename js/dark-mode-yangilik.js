@@ -1,23 +1,19 @@
-const main = document.querySelector(".main");
+const continerNews = document.querySelector(".continer");
 const inputBackgroud = document.querySelector(".ChangeColor");
 const inputBackgroudBlock = document.querySelector(".ChangeColorBlock");
-const header = document.querySelector(".jaloliddin-1");
 const inputTextColor = document.querySelector(".ChangeTextColor");
 const inputTextColorBlock = document.querySelector(".ChangeTextColorBlock");
+const sardor = document.querySelector(".sardor");
 function changeColor() {
-  main.style.backgroundColor = inputBackgroud.value;
-  header.style.backgroundColor = inputBackgroud.value;
-  header.style.backgroundImage = "none";
-  main.style.backgroundImage = "none";
+  continerNews.style.backgroundColor = inputBackgroud.value;
+  sardor.style.backgroundImage = "none";
+  sardor.style.backgroundColor = inputBackgroud.value;
 }
 inputBackgroud.addEventListener("input", function () {
   changeColor();
 });
 function changeColorBlock() {
-  main.style.backgroundColor = inputBackgroud.value;
-  header.style.backgroundColor = inputBackgroud.value;
-  header.style.backgroundImage = "none";
-  main.style.backgroundImage = "none";
+  continerNews.style.backgroundColor = inputBackgroud.value;
 }
 inputBackgroudBlock.addEventListener("input", function () {
   changeColorBlock();

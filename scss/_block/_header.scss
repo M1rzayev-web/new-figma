@@ -37,16 +37,23 @@
         font-size: 35px;
       }
       .nav__toogle {
-        width: 10%;
-        margin-right: 0;
+        width: 270px;
+        height: 40px;
+        background: #151a1e;
+        border: 1px solid #aaaaaa;
+        border-radius: 40px;
         display: flex;
         align-items: center;
-        justify-content: space-around;
-        border-radius: 12px;
-        i {
+        justify-content: space-between;
+        // margin-right: 0;
+        label{
           color: white;
-          font-size: 22px;
         }
+        input{
+          width: 20px;
+          height: 20px;
+        }
+        
       }
     }
     .block-ul {
