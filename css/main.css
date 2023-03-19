@@ -14,6 +14,7 @@
   width: 100%;
   height: 900px;
   background-image: url("/images/bg-big.png");
+  background-color: #151a1e;
 }
 .jaloliddin-1 .header {
   width: 100%;
@@ -131,7 +132,7 @@
   color: #ffffff;
 }
 .jaloliddin-1 .header__nav .nav__toogle {
-  width: 93px;
+  width: 270px;
   height: 40px;
   background: #151a1e;
   border: 1px solid #aaaaaa;
@@ -139,16 +140,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-right: 0;
 }
-.jaloliddin-1 .header__nav .nav__toogle i {
-  width: 50%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.jaloliddin-1 .header__nav .nav__toogle label {
   color: white;
-  font-size: 22px;
+}
+.jaloliddin-1 .header__nav .nav__toogle input {
+  width: 20px;
+  height: 20px;
 }
 .jaloliddin-1 .header__nav .nav__phone {
   width: 170px;

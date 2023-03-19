@@ -1,19 +1,23 @@
-const sun = document.getElementById("sun");
-const moon = document.getElementById("moon");
-const continer = document.querySelector(".continer");
-
-sun.addEventListener("click", function () {
- continerWhite();
-});
-moon.addEventListener("click", function () {
-  continerDark();
-});
-function continerWhite() {
-  continer.style.background = "white";
-  continer.style.color = "black";
+const main = document.querySelector(".main");
+const inputBackgroud = document.querySelector(".ChangeColor");
+const header = document.querySelector(".jaloliddin-1");
+const inputTextColor = document.querySelector(".ChangeTextColor");
+function changeColor() {
+  main.style.backgroundColor = inputBackgroud.value;
+  header.style.backgroundColor = inputBackgroud.value;
+  header.style.backgroundImage = "none";
+  main.style.backgroundImage = "none";
 }
-function continerDark() {
-  continer.style.background = "black";
-  continer.style.color = "white";
-}
+inputBackgroud.addEventListener("input", function () {
+  changeColor();
+});
 
+const elements = document.querySelectorAll("h2, h3, p,h1,h4,a");
+function ChangeTextColor() {
+  elements.forEach((el) => {
+    el.style.color = inputTextColor.value;
+  });
+}
+inputTextColor.addEventListener("input", function () {
+  ChangeTextColor();
+});
